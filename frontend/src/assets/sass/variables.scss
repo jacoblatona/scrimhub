@@ -1,0 +1,21 @@
+// backgrounds
+$body-bg: #1c283a;
+$nav-bg: darken($body-bg, 2%);
+$card-bg: darken($body-bg, 1%);
+$sidebar-bg: darken($body-bg, 4%);
+$card-border: lighten($card-bg, 3%);
+$bg-primary: #007bff;
+$bg-twitch: #6441a4;
+$bg-twitter: #1da1f2;
+$bg-nav-login: darken($nav-bg, 3%);
+
+// text
+$text-white: #cbd5e0;
+$semi-bold: 600;
+$bold: 800;
+$thin: 300;
+$text-small: 13px;
+$text-xs: 10px;
+
+// borders
+$btn-login-border: lighten($bg-nav-login, 3%);

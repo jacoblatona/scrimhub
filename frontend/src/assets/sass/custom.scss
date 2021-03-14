@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+@import "variables";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: $body-bg;
+  font-family: "Montserrat", sans-serif;
+  color: $text-white;
+  font-weight: 500;
+}
+.navbar {
+  background: $nav-bg;
+  padding: 25px 0;
+
+  a.nav-link {
+    color: $text-white !important;
+    font-weight: $semi-bold;
+    font-size: 13px;
+    padding: 0 15px !important;
+  }
+
+  a.navbar-brand {
+    font-weight: $bold;
+    color: $text-white !important;
+  }
+}
+
+.card {
+  background: $card-bg !important;
+  border-radius: 3px;
+  border: none;
+}
+
+.bold {
+  font-weight: $bold;
+}
+
+.semi-bold {
+  font-weight: $semi-bold;
+}
+
+.thin {
+  font-weight: $thin;
+}
+
+ol.breadcrumb {
+  background: $body-bg;
+  margin: 0;
+  padding-left: 0;
+  font-size: $text-small;
+
+  a {
+    color: $text-white !important;
+  }
+}
+
+.table {
+  th {
+    background: $nav-bg;
+    color: $text-white;
+    border: none !important;
+    font-size: $text-small;
+  }
+  td {
+    border: none;
+    color: $text-white;
+    font-weight: 400;
+    font-size: $text-small;
+  }
+}
+
+.form-control {
+  background: $nav-bg;
+  border-color: $body-bg;
+}
+
+.text-small {
+  font-size: $text-small;
+}
+
+.text-xs {
+  font-size: $text-xs;
+}
+
+.spacer-gutter {
+  width: 100%;
+  height: 15px;
+  clear: both;
+}
+
+.btn {
+  font-weight: $semi-bold;
+}
+
+.btn-twitch {
+  background: $bg-twitch;
+  border-color: $bg-twitch;
+
+  &:hover {
+    background: $bg-twitch;
+    border-color: $bg-twitch;
+  }
+}
+
+.btn-twitter {
+  background: $bg-twitter;
+  border-color: $bg-twitter;
+
+  &:hover {
+    background: $bg-twitter;
+    border-color: $bg-twitter;
+  }
+}
+
+.btn-login {
+  padding: 8px;
+  background: $bg-primary !important;
+  border-radius: 33px;
+  border: 1px solid $btn-login-border !important;
+}
+
+.btn-register {
+  padding: 8px;
+  background: $nav-bg !important;
+  border-radius: 33px;
+  border: 1px solid $btn-login-border !important;
+}
+
+.b-sidebar-body {
+  background: $sidebar-bg !important;
+
+  legend {
+    color: $text-white !important;
+  }
+}
+
+hr {
+  border-color: $body-bg;
+}
+
+select option {
+  margin: 40px;
+  background: $body-bg !important;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.form-control {
+  color: $text-white !important;
+}
+.form-control:focus,
+select:focus {
+  background: $body-bg !important;
+  border-color: $card-bg !important;
+}
+
+.loader{
+  font-size:100px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-toggler-icon{
+  color:#fff !important;
+}
